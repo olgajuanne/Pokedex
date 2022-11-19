@@ -1,4 +1,8 @@
-<h1 align="center"> PokeAPI </h1>
+<h1 align="center"> PokeDex </h1>
+
+<p align="center">
+  <img alt="pokeapi" src="./public/pokeapi.svg" width="50%">
+</p>
 
 <p align="center">
 Pokedex API RESTful.
@@ -17,9 +21,7 @@ Pokedex API RESTful.
 
 <br>
 
-<p align="center">
-  <img alt="pokedex" src="./public/icons8-pokeball-64%20(1).svg" width="50%">
-</p>
+
 
 ## 📌 Status do projeto
 
@@ -37,11 +39,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-A Pokedex é uma API RESTful uma aplicação... , "onde é possível adicionar máscara aos inputs e atualizar elementos HTML via DOM".
+A Pokedex é uma API RESTful uma aplicação... 
 
-## 🔖 Layout
+## 🗂 Doc
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www)
+Você pode visualizar o UI do projeto através [DESSE LINK]([https://www](https://pokeapi.co/))
 
 ## :memo: Licença
 
