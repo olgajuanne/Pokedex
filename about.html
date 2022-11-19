@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="./public/pokeball/icons8-pokeball-64.png" />
+  <title>Characteristic</title>
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/about.css">
+    <link rel="stylesheet" href="/assets/css/pokedex.css">
+</head>
+<body>
+  <section class="stats">
+    <div class="grass">
+      <button id="home" onclick="redirecionar()" > <-- </button>
+      <ol class="dados">
+        <li class="poke">
+          <span class="number">#001</span>
+          <span class="name">Bulbasaur</span>
+          <div class="detail">
+            <ol class="types">
+              <li class="type">grass</li>
+              <li class="type">poison</li>
+            </ol>
+          </div>
+          <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg" 
+                alt="Bulbasaur">
+        </li>
+      </ol>     
+    </div>
+    <div class="poke-dados" >
+      <h2>about</h2>
+        <table class="types-d">
+          <tr>
+            <th>species</th>
+            <td class="type">seed</td>
+          </tr>
+          <tr>
+            <th>height</th>
+           <td class="type">0.70cm</td>
+          </tr>
+          <tr>
+            <th>weight</th>
+            <td class="type">6.9kg</td>
+          </tr>
+          <tr>
+            <th>abilities</th>
+            <td class="type">Overgrow, Chlorophy!</td>
+          </tr>
+        </table>
+        <span class="b">breeding</span>
+        <table class="types-d">
+          <tr>
+            <th>gender</th>
+            <td class="type">87.5%</td>
+          </tr>
+          <tr>
+            <th>egg groups</th>
+            <td class="type">Monster</td>
+          </tr>
+          <tr>
+            <th>egg cycle</th>
+            <td class="type">grass</td>
+          </tr>
+        </table>
+        </div>  
+    </section>
+  <script src="/assets/js/poke-dados.js"></script>
+  <!-- <script src="/assets/js/main.js"></script> -->
+</body>
+</html>

@@ -1,11 +1,11 @@
-<h1 align="center"> PokeDex </h1>
+<h1 align="center"> PokéDex </h1>
 
 <p align="center">
   <img alt="pokeapi" src="./public/pokeapi.svg" width="50%">
 </p>
 
 <p align="center">
-Pokedex API RESTful.
+API RESTful para criação de uma Pokédex. 
 </p>
 
 <p align="center">
@@ -43,7 +43,7 @@ A Pokedex é uma API RESTful uma aplicação...
 
 ## 🗂 Doc
 
-Você pode visualizar o UI do projeto através [DESSE LINK]([https://www](https://pokeapi.co/))
+Você pode visualizar o UI do projeto através [DESSE LINK](https://pokeapi.co/)
 
 ## :memo: Licença
 
