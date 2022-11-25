@@ -20,7 +20,9 @@ API RESTful para criação de uma Pokédex.
 </p>
 
 <br>
-
+<p align="center">
+  <img alt="preview do projeto" src="./public/preview.png" width="70%">
+</p>
 
 
 ## 📌 Status do projeto
@@ -39,7 +41,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-A Pokedex é uma API RESTful uma aplicação... 
+A Pokedex é uma API RESTful, uma aplicação feita para mostrar os dados dos pokemons disponíveis em uma API. 
 
 ## 🗂 Doc
 

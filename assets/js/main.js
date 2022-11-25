@@ -4,20 +4,20 @@ const maxRecords = 251
 const limit = 9
 let offset = 0;
 
-
+var nomePokemon = "";
 function about() {
-  location.href = "about.html";
-    const nomePokemon = document.getElementsByName('#numb').value;
-    document.getElementsByName('valorDigitado').innerHTML = nomePokemon; 
+  //debugger
+    nomePokemon = document.getElementsByName('#numb').value;
+    document.getElementsByName('about()').innerHTML = nomePokemon; 
     console.log(nomePokemon)
+    location.href = "about.html";
+    
 }
 
 const btn = document.querySelector('#send')
-  btn.addEventListener("click", function(e){
-
+  btn.addEventListener("click", (e) => {
     e.preventDefault();
-    const numb = document.querySelector("#numb");
-
+    const numb = document.querySelector('#numb');
     const value = numb.value;
     console.log(value);
   });
